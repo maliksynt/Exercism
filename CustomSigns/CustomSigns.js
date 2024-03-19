@@ -15,5 +15,6 @@ export function graduationFor(name, year) {
 export function costOf(sign, currency) {
   const arraySign = sign.split("");
   let price = arraySign.length * 2 + 20;
-  return `Your sign costs ${price.toFixed(2)} ${currency}.`;
+
+  return `Your sign costs ${price.toFixed} ${currency}.`;
 }
