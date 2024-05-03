@@ -2,8 +2,7 @@
 // This is only a SKELETON file for the 'Resistor Color' exercise. It's been provided as a
 // convenience to get you started writing code faster.
 //
-
-const ColorList = {
+export const ColorList = {
   black: 0,
   brown: 1,
   red: 2,
@@ -15,12 +14,11 @@ const ColorList = {
   grey: 8,
   white: 9,
 };
-
-const colorCode = (color) => {
+export const colorCode = (color) => {
   return ColorList[color];
 };
 
-const COLORS = [
+export const COLORS = [
   "black",
   "brown",
   "red",
@@ -32,3 +30,4 @@ const COLORS = [
   "grey",
   "white",
 ];
+
